@@ -6,6 +6,11 @@ require 'httparty'
 get "/" do
   erb :home
 end
+
+get "/search" do
+   erb :search
+end
+
 get "/movies" do
   movie_name = params["movie_name"]
   url = "http://www.omdbapi.com/?t=#{movie_name}"
@@ -13,6 +18,3 @@ get "/movies" do
   erb :movies
 end
 
-get "/search" do
-   erb :search
-end

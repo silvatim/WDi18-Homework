@@ -8,21 +8,20 @@ img{
    height:300px;
 }
 h1{
-text-align:center;
+  text-align:center;
 }
-
 h2{
-font-size: 20px;
+  font-size: 20px;
 }
-
 .poster{
-position:inline-block;
-width:270px;
-float:left;
+  position:inline-block;
+  width:270px;
+  float:left;
 }
 .summary{
-position:inline-block;
+  position:inline-block;
+  float:right;
 }
 form{
-text-align:center;
+  text-align:center;
 }
