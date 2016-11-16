@@ -1,0 +1,28 @@
+body {
+  background-color: ghostwhite;
+  font-family: arial;
+}
+img{
+   display:block;
+   width:250px;
+   height:300px;
+}
+h1{
+text-align:center;
+}
+
+h2{
+font-size: 20px;
+}
+
+.poster{
+position:inline-block;
+width:270px;
+float:left;
+}
+.summary{
+position:inline-block;
+}
+form{
+text-align:center;
+}
