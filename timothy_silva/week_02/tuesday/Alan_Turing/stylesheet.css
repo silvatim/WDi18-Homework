@@ -1,0 +1,55 @@
+.container{
+  min-width:900px;
+}
+body {
+  min-height:600px;
+  margin:0;
+  background:black;
+  font-family: 'Playfair Display SC', serif;
+}
+h1{
+  color:#ffffff;
+  text-align:center;
+  margin-top:130px;
+  font-size:70px;
+  }
+h2{
+  color:white;
+  text-align:center;
+  font-size: 20px;
+}
+a{
+  text-decoration:none;
+}
+a h2:hover{
+  color:#f0aa87;
+}
+.columns{
+  width: 80%;
+  height: 600px;
+  padding:40px;
+  margin:10px auto ;
+  overflow:auto;
+}
+.column{
+  background:black;
+  width: 30%;
+  margin:10px;
+  border-radius:50%;
+  height:60%;
+  float:left;
+}
+.wheel{
+  max-width:100%;
+  max-height:100%;
+  transform:rotate(252deg);
+  transition-duration:2s;
+}
+.first:hover, .third:hover{
+  transform:rotate(435deg);
+  transition-duration:2s;
+}
+.second:hover{
+  transform:rotate(72deg);
+  transition-duration:2s;
+}

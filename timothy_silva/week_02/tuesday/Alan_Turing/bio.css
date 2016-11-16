@@ -1,0 +1,160 @@
+*{
+ box-sizing:border-box;
+}
+body {
+  min-height:600px;
+  min-width:600px;
+  margin:0;
+  background:white;
+  font-family: 'Playfair Display SC', serif;
+}
+.heading{
+ text-align:center;
+ margin-top:100px;
+ margin-bottom:20px;
+}
+
+li{
+  font-size:16px;
+}
+nav{
+  position: fixed;
+  height: 75px;
+  top:0;
+  left: 0;
+  width: 100%;
+  background-color:black;
+  overflow:auto;
+}
+
+nav a{
+  font-size:18px;
+  font-weight:bold;
+  color:#ffffff;
+  display:block;
+  float:left;
+  padding:26px 55px;
+  text-decoration:none;
+  position:relative;
+}
+nav a:hover{
+  background-color: #ffffff;
+  color:#000000;
+}
+.columns{
+  background: black;
+  width: 80%;
+  margin:10px auto;
+  overflow:auto;
+  height:580px;
+}
+.half{
+  width: 50%;
+  height: 500px;
+  background-color:white;
+  border: 1px solid white;
+  float:left;
+  padding:10px;
+}
+.alan {
+  background:url("alan.jpg");
+  background-size:cover;
+}
+.bombe {
+  background:url("machine.jpg");
+  background-size:cover;
+}
+.trivia {
+  background:url("apple.jpg");
+  background-size:cover;
+}
+.spin {
+  font-size:80px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 300ms;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 300ms;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 300s
+
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+  }
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+span{
+ text-align:center;
+ font-size:50px;
+}
+.spin1{
+    -webkit-animation-iteration-count: 9;
+    -ms-animation-iteration-count:9;
+    -moz-animation-iteration-count:9;
+}
+.spin2{
+    -webkit-animation-iteration-count: 4;
+    -ms-animation-iteration-count:4;
+    -moz-animation-iteration-count:4;
+}
+.spin2{
+    -webkit-animation-iteration-count: 2;
+    -ms-animation-iteration-count:2;
+    -moz-animation-iteration-count:2;
+}
+.spin4{
+
+    -webkit-animation-iteration-count: 7;
+    -ms-animation-iteration-count:7;
+    -moz-animation-iteration-count:7;
+}
+.spin5{
+    -webkit-animation-iteration-count: 3;
+    -ms-animation-iteration-count:3;
+    -moz-animation-iteration-count:3;
+}
+.spin6{
+    -webkit-animation-iteration-count: 8;
+    -ms-animation-iteration-count:8;
+    -moz-animation-iteration-count:8;
+}
+.spin7{
+    -webkit-animation-iteration-count: 5;
+    -ms-animation-iteration-count:5;
+    -moz-animation-iteration-count:5;
+}
+.spin8{
+    -webkit-animation-iteration-count: 2;
+    -ms-animation-iteration-count:2;
+    -moz-animation-iteration-count:2;
+}
+.spin9{
+    -webkit-animation-iteration-count: 6;
+    -ms-animation-iteration-count:6;
+    -moz-animation-iteration-count:6;
+}
+
